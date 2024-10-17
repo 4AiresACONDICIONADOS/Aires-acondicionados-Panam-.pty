@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Aire Acondicionado en Panamá</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-image: url('fondo-nieve.jpg'); /* Fondo simulado de nieve */
+            background-size: cover;
+        }
+
+        header {
+            background-color: rgba(0, 151, 167, 0.8);
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Sección principal */
+        .main-section {
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #01579b;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        /* Estilos del botón de contacto por WhatsApp */
+        .whatsapp-btn {
+            background-color: #25d366;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 18px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #128c7e;
+        }
+
+        /* Estilos responsivos para dispositivos móviles */
+        @media (max-width: 600px) {
+            header {
+                font-size: 20px;
+            }
+
+            .whatsapp-btn {
+                font-size: 16px;
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mantenimiento, Reparación e Instalación de Aires Acondicionados</h1>
+        <h2>¡Servicios en toda Panamá!</h2>
+    </header>
+
+    <section class="main-section">
+        <h1>¿Necesitas ayuda con tu aire acondicionado?</h1>
+        <p>Ofrecemos servicios de mantenimiento, reparación e instalación con técnicos especializados en todo Panamá. ¡Contáctanos ahora para una atención rápida y profesional!</p>
+        
+        <!-- Botón de WhatsApp -->
+        <a href="https://wa.me/1234567890" class="whatsapp-btn">Contactar por WhatsApp</a>
+    </section>
+
+    <footer>
+        <p>© 2024 Servicios de Aire Acondicionado Panamá. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Detectar si es móvil y agregar el enlace dinámico de WhatsApp
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        const whatsappBtn = document.querySelector('.whatsapp-btn');
+        if (isMobile) {
+            whatsappBtn.href = 'https://wa.me/507XXXXXXXX';  // Reemplaza con el número de teléfono correcto
+        }
+    </script>
+</body>
+</html>
